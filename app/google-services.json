@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "77857982331",
+    "firebase_url": "https://hiacego-a21ad-default-rtdb.firebaseio.com",
+    "project_id": "hiacego-a21ad",
+    "storage_bucket": "hiacego-a21ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77857982331:android:d7f72055f98e3e948cdfde",
+        "android_client_info": {
+          "package_name": "com.example.tugashiace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77857982331-pah370buet3maacbl9999c97okbti6kb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tugashiace",
+            "certificate_hash": "5f48d17f287e11615b2b85cdcca538b50691f851"
+          }
+        },
+        {
+          "client_id": "77857982331-ldgman2bv95norkeiiom007d508likei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRkL3_yxF27QeugU2OS2rzOB_dK1vzd2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77857982331-ldgman2bv95norkeiiom007d508likei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

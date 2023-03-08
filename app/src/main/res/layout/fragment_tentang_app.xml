@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greybg"
+    tools:context=".TentangAppFragment">
+
+    <ImageView
+        android:layout_width="417dp"
+        android:layout_height="287dp"
+        android:src="@drawable/rectdash" />
+
+    <TextView
+        android:id="@+id/backAkun2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:drawablePadding="30dp"
+        android:fontFamily="@font/poppinsmed"
+        android:text="Tentang HiAceGo"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="286dp"
+        android:layout_height="63dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <ScrollView
+        android:layout_width="375dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/bgsk">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/headTerm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppinsbold"
+                android:gravity="center"
+                android:text="H i A c e G o"
+                android:textColor="@color/blueicon"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:justificationMode="inter_word"
+                android:lineHeight="17dp"
+                android:padding="20dp"
+                android:paddingStart="10dp"
+                android:text="@string/tentangApp"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/backAkunfromTentangApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Kembali" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

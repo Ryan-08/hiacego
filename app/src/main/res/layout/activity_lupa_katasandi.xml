@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greybg"
+    android:orientation="vertical"
+    tools:context=".LupaKatasandi">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:src="@drawable/resetpass"
+        android:layout_margin="40dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atur Ulang Kata Sandi"
+        android:fontFamily="@font/poppinsmed"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resetPass"
+        android:fontFamily="@font/poppinsreg"
+        android:padding="25dp"
+        android:textColor="@color/black"
+        android:lineHeight="25dp"/>
+
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonform"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/poppinsreg"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp" />
+
+    <Button
+        android:id="@+id/btnResetPass"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Kirim"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"/>
+
+</LinearLayout>

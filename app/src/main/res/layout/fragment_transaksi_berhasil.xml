@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TransaksiBerhasil">
+            <ImageView
+                android:id="@+id/bg"
+                android:layout_width="414dp"
+                android:layout_height="370dp"
+                android:layout_marginTop="-8dp"
+                android:src="@drawable/recttiket"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/print"
+                android:layout_marginBottom="380dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="20dp"
+                android:fontFamily="@font/poppinsmed"
+                android:gravity="center_horizontal"
+                android:text="TRANSAKSI BERHASIL"
+                android:textColor="@color/blueicon"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmed"
+                android:gravity="center_horizontal"
+                android:text="@string/transaksiBerhasil"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmed"
+                    android:text="Nomor ID: "
+                    android:textColor="@color/blueicon"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/noTiket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmed"
+                    android:text="18010hip"
+                    android:textColor="@color/blueicon"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/tiketSaya"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Lihat Tiket Saya" />
+
+            <Button
+                android:id="@+id/backToBeranda"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:backgroundTint="@color/greybg"
+                android:layout_gravity="center"
+                android:outlineAmbientShadowColor="@color/blueicon"
+                android:outlineSpotShadowColor="@color/blueicon"
+                android:shadowColor="@color/blueicon"
+                android:text="Kembali ke Beranda"
+                android:textColor="@color/blueicon" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

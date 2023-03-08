@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Akun">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/greybg"
+        tools:context=".Akun">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:src="@drawable/rectdash"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/photoProfil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_person_white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="59dp"
+            android:visibility="visible"
+            />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/kamera"
+            android:layout_marginTop="145dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/tv_user"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="email pengguna"
+            android:layout_marginTop="180dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/unverified"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_baseline_verified_user_24"
+            android:layout_marginTop="180dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="100dp"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/verified"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_baseline_verifiedgreen"
+            android:layout_marginTop="180dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="100dp"
+            android:visibility="invisible"/>
+
+        <FrameLayout
+            android:id="@+id/cvBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/backgroundd" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_baseline_person_24"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="260dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="245dp"
+                android:fontFamily="@font/poppinsreg"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="nama pengguna"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="275dp"
+                android:fontFamily="@font/poppinsreg"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_baseline_phone_24"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="335dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nomor Handphone"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="320dp"
+                android:fontFamily="@font/poppinsreg"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvNomorhp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="nomor handphone pengguna"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="350dp"
+                android:fontFamily="@font/poppinsreg"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_baseline_email_24"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="410dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="395dp"
+                android:fontFamily="@font/poppinsreg"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="email pengguna"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="425dp"
+                android:fontFamily="@font/poppinsreg"
+                android:textSize="16sp" />
+
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/pengaturan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan"
+            android:layout_marginTop="490dp"
+            android:layout_marginStart="25dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="12sp"
+            android:textColor="#2D9CDB"
+            android:visibility="visible"
+            />
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/cvSetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="545dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:visibility="visible"
+                app:cardCornerRadius="20dp">
+
+                <!--            <ImageView-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:src="@drawable/backgroundputih"-->
+                <!--                android:paddingLeft="20dp"-->
+                <!--                android:paddingRight="20dp"-->
+                <!--                android:layout_marginTop="180dp"/>-->
+
+
+                <TextView
+                    android:id="@+id/tvTentangApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_baseline_info_24"
+                    android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/poppinsreg"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="40dp"
+                    android:text="Tentang HiAceGo"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvTerm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="75dp"
+                    android:drawableLeft="@drawable/ic_baseline_content_paste_24"
+                    android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/poppinsreg"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="40dp"
+                    android:text="Syarat dan Ketentuan"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvChangePass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="125dp"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/poppinsreg"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="40dp"
+                    android:text="Ubah Kata Sandi"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvChangeProfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="175dp"
+                    android:drawableLeft="@drawable/ic_baseline_person_24"
+                    android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/poppinsreg"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="40dp"
+                    android:text="Ubah Profil"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="225dp"
+                    android:drawableLeft="@drawable/ic_baseline_login_24"
+                    android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/poppinsreg"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Keluar"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvUbahPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="7dp"
+            app:cardBackgroundColor="@color/white"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ubah Kata Sandi"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textColor="@color/blueicon"
+                    android:textSize="18sp"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:hint="Kata Sandi Sekarang"
+                    android:fontFamily="@font/poppinsmed"
+                    android:layout_marginTop="15dp"/>
+
+                <EditText
+                    android:id="@+id/edtCurrentPass"
+                    android:layout_width="328dp"
+                    android:layout_height="39dp"
+                    android:background="@drawable/formsandi"
+                    android:paddingStart="20dp"
+                    android:hint="Masukkan Kata Sandi Anda"
+                    android:textSize="13sp"
+                    android:inputType="textPassword"
+                    android:fontFamily="@font/poppinsreg" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:hint="Kata Sandi Baru"
+                    android:fontFamily="@font/poppinsmed"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edtNewPassword"
+                    android:layout_width="328dp"
+                    android:layout_height="39dp"
+                    android:background="@drawable/formsandi"
+                    android:paddingStart="20dp"
+                    android:hint="Masukkan Kata Sandi Baru"
+                    android:inputType="textPassword"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/poppinsreg" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:hint="Konfirmasi Kata Sandi"
+                    android:fontFamily="@font/poppinsmed"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edtConfirmNewPass"
+                    android:layout_width="328dp"
+                    android:layout_height="39dp"
+                    android:background="@drawable/formsandi"
+                    android:paddingStart="20dp"
+                    android:hint="Ulangi Kata Sandi"
+                    android:textSize="13sp"
+                    android:inputType="textPassword"
+                    android:fontFamily="@font/poppinsreg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="50dp">
+
+                    <TextView
+                        android:id="@+id/tvCancel"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="Kembali"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/blueicon"
+                        android:layout_marginStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/btnUpdatePass"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Atur Ulang"
+                        android:layout_marginStart="100dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvUbahProfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="7dp"
+            app:cardBackgroundColor="@color/white"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ubah Profil"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textColor="@color/blueicon"
+                    android:textSize="18sp"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:hint="Nama"
+                    android:fontFamily="@font/poppinsmed"
+                    android:layout_marginTop="15dp"/>
+
+                <EditText
+                    android:id="@+id/edtNama"
+                    android:layout_width="328dp"
+                    android:layout_height="39dp"
+                    android:background="@drawable/formsandi"
+                    android:paddingStart="20dp"
+                    android:hint="Masukkan Nama Anda"
+                    android:textSize="13sp"
+                    android:inputType="text"
+                    android:fontFamily="@font/poppinsreg" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:hint="Nomor Handphone"
+                    android:fontFamily="@font/poppinsmed"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edtNoHp"
+                    android:layout_width="328dp"
+                    android:layout_height="39dp"
+                    android:background="@drawable/formsandi"
+                    android:paddingStart="20dp"
+                    android:hint="Masukkan No. Hp Anda"
+                    android:inputType="text"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/poppinsreg" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:hint="Email"
+                    android:fontFamily="@font/poppinsmed"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="328dp"
+                    android:layout_height="39dp"
+                    android:background="@drawable/formsandi"
+                    android:paddingStart="20dp"
+                    android:hint="Masukkan Email Anda"
+                    android:textSize="13sp"
+                    android:inputType="text"
+                    android:fontFamily="@font/poppinsreg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="50dp">
+
+                    <TextView
+                        android:id="@+id/cancel"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="Kembali"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/blueicon"
+                        android:layout_marginStart="10dp"/>
+
+                    <Button
+                        android:id="@+id/btnUpdateProfile"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Perbarui Data"
+                        android:layout_marginStart="100dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

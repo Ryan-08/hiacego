@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglogin"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Daftar"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:textSize="24sp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingStart="150dp"
+                    android:id="@+id/txtLogin"
+                    />
+
+            </LinearLayout>
+        </FrameLayout>
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="39dp"
+            android:background="@drawable/buttonform"
+            android:paddingStart="20dp"
+            android:hint="Nama"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="15dp"
+            android:fontFamily="@font/poppinsreg"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/Nama"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="39dp"
+            android:background="@drawable/buttonform"
+            android:paddingStart="20dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="15dp"
+            android:fontFamily="@font/poppinsreg"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/Email"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="39dp"
+            android:background="@drawable/buttonform"
+            android:paddingStart="20dp"
+            android:hint="No Telepon"
+            android:inputType="phone"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="15dp"
+            android:fontFamily="@font/poppinsreg"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/nomorHp"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="39dp"
+            android:background="@drawable/buttonform"
+            android:paddingStart="20dp"
+            android:hint="Kata Sandi"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_baseline_visibility_off_24"
+            android:longClickable="false"
+            android:drawablePadding="15dp"
+            android:fontFamily="@font/poppinsreg"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/password"/>
+
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="39dp"
+            android:background="@drawable/buttonform"
+            android:paddingStart="20dp"
+            android:hint="Ulangi Kata Sandi"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_baseline_visibility_off_24"
+            android:longClickable="false"
+            android:drawablePadding="15dp"
+            android:fontFamily="@font/poppinsreg"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/repeatPassword"/>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/acceptRegist"
+            android:textSize="11sp"
+            android:fontFamily="@font/poppinslight"
+            android:paddingLeft="3dp"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Daftar"
+        android:fontFamily="@font/poppinssemibold"
+        android:backgroundTint="@color/blueicon"
+        android:id="@+id/btnRegist">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sudah punya akun?"
+        android:paddingTop="10dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/poppinsreg"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masuk Disini"
+        android:fontFamily="@font/poppinsreg"
+        android:textColor="@color/blueicon"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="100dp"
+        android:id="@+id/registologin" />
+
+</LinearLayout>

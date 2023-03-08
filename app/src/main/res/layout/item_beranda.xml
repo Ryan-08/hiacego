@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="25dp"
+    android:layout_marginBottom="25dp"
+    app:cardCornerRadius="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+                                    android:layout_width="248dp"
+                                    android:layout_height="86dp"
+                                    android:background="@color/white"
+                                    app:cardCornerRadius="16dp"
+                                    app:cardElevation="7dp"
+                                    android:layout_margin="15dp"
+                                    android:layout_marginEnd="35dp"
+                                    tools:ignore="MissingConstraints">
+
+                                    <ImageView
+                                        android:layout_width="60dp"
+                                        android:layout_height="30dp"
+                                        android:src="@drawable/besok"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginStart="20dp"
+                                        android:contentDescription="" />
+
+                                    <TextView
+                                        android:id="@+id/tujuan"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Lhokseumawe"
+                                        android:fontFamily="@font/poppinssemibold"
+                                        android:textColor="#333E63"
+                                        android:textSize="14sp"
+                                        android:gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:layout_marginStart="50dp"/>
+
+                                    <TextView
+                                        android:id="@+id/rute"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="BNA - LSM"
+                                        android:fontFamily="@font/poppinsreg"
+                                        android:textColor="#88879C"
+                                        android:textSize="10sp"
+                                        android:gravity="center"
+                                        android:layout_marginTop="45dp"
+                                        android:layout_marginEnd="5dp"/>
+
+                                </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

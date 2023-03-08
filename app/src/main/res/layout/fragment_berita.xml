@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Berita">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingHorizontal="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/blueicon"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Satpol PP dan WH Kota Banda Aceh Tertibkan PKL di Jalan Rama Setia"
+            />
+        <TextView
+            android:id="@+id/berita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAlignment="viewStart"
+            android:lineHeight="24dp"
+            android:fontFamily="@font/poppinsmed"
+            android:textColor="@color/black"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/sumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppinsreg"
+            android:text="Sumber: https://aceh.tribunnews.com/2023/02/20/satpol-pp-dan-wh-kota-banda-aceh-tertibkan-pkl-di-jalan-rama-setia"
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

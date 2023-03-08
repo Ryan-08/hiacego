@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/greybg"
+    tools:context=".Pesanan">
+
+    <ImageView
+        android:layout_width="416dp"
+        android:layout_height="185dp"
+        android:src="@drawable/rect13" />
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/logo"
+        android:backgroundTint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiket Saya"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="100dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/tablayout">
+
+        <!--<com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Semua"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diproses"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selesai"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batal"/>-->
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tambahPesanan"
+        android:layout_below="@+id/tablayout"/>
+
+    <Button
+        android:id="@+id/tambahPesanan"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:text="+ TAMBAH PESANAN"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

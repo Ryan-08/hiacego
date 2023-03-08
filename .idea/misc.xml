@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/activity_lupa_katasandi.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_akun.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_batal.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_beranda.xml" value="0.33" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_berita.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_bukti_pembayaran.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_detail_tiket.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_diproses.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_list_tiket.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_pembayaran.xml" value="0.33" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_pesanan.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_pilih_no_kursi.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_selesai.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_semua.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_syarat_ketentuan.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_tentang_app.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_tiket_saya.xml" value="0.33" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/fragment_transaksi_berhasil.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/item_beranda.xml" value="0.5" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/mobil_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/TugasHiace - TRY/app/src/main/res/layout/tiket_item.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

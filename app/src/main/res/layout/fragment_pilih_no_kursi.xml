@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PilihNoKursi"
+    android:background="@color/greybg">
+
+    <ImageView
+        android:layout_width="416dp"
+        android:layout_height="185dp"
+        android:src="@drawable/rect13" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Pilih Tempat"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Dudukmu"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="375dp"
+            android:layout_height="490dp"
+            app:cardCornerRadius="16dp"
+            android:layout_marginTop="150dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="8dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tersedia"
+                    android:fontFamily="@font/poppinsreg"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginStart="55dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:outlineProvider="background"
+                    android:background="@color/orangebtn"
+                    android:backgroundTint="@color/orangebtn"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="140dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terisi"
+                    android:fontFamily="@font/poppinsreg"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginStart="175dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:outlineProvider="background"
+                    android:background="@color/blueicon"
+                    android:backgroundTint="@color/blueicon"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="240dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terpilih"
+                    android:fontFamily="@font/poppinsreg"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginStart="275dp"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="80dp">
+
+                <!-- kursi 1-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_1"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="40dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi tambahan-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="150dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tempat Duduk Tambahan"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="10sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi supir-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="260dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Supir"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="12sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi 2-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_2"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="100dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi 3-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_3"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="100dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi 4-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_4"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="260dp"
+                    android:layout_marginTop="100dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi 5-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_5"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="200dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi 6-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_6"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="200dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi 7-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_7"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="260dp"
+                    android:layout_marginTop="200dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi 8-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_8"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="300dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi 9-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_9"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="300dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- kursi 10-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slot_10"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:outlineProvider="background"
+                    android:background="@color/greybg"
+                    android:backgroundTint="@color/greybg"
+                    android:backgroundTintMode="src_atop"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="260dp"
+                    android:layout_marginTop="300dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textSize="24sp"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnPilih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="660dp"
+        android:fontFamily="@font/poppinsreg"
+        android:text="@string/pilih_tempat_duduk" />
+</FrameLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

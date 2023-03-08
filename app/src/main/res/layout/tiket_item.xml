@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/travel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="PT Bahtera Atakana"
+                android:textColor="#59597C"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/harga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp 150.000"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="275dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="#59597C"
+                />
+
+            <TextView
+                android:id="@+id/slot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sisa 4"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="10sp"
+                android:layout_below="@+id/harga"
+                android:layout_marginEnd="15dp"
+                android:layout_alignStart="@+id/harga"
+                android:textColor="#EB5757"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="310dp"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="BNA"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/state2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LSM"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginEnd="170dp"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:textSize="11sp"
+                    />
+
+                <ImageView
+                    android:layout_width="73dp"
+                    android:layout_height="6dp"
+                    android:src="@drawable/rute"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="70dp"/>
+
+                <TextView
+                    android:id="@+id/jamBerangkat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10.00 WIB"
+                    android:layout_marginStart="83dp"
+                    android:layout_marginEnd="200dp"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:textSize="10sp"
+                    android:layout_marginTop="17dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/durasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:fontFamily="@font/poppinsreg"
+                    android:textSize="10sp"
+                    android:layout_marginStart="15dp"
+                    android:text="5 jam 30 menit"
+                    />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/arrow"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="320dp"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
